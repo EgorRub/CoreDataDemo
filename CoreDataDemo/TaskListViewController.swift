@@ -48,8 +48,11 @@ class TaskListViewController: UITableViewController {
         
         navigationController?.navigationBar.tintColor = UIColor.white
     }
+    
+    // ТК у нас нет сториборда - то мы можем просто создать экземпляр класса следующего сторборда который мы хотим открыть и без prepare for segue
     @objc private func addNewTask() {
-        
+        let newTaskVC = TaskViewController()
+        present(newTaskVC, animated: true)
     }
     
 }
