@@ -10,6 +10,8 @@ import CoreData
 
 class TaskViewController: UIViewController {
     
+    var delegate: TaskViewControllerDelegate?
+    
     // Создаем экземпляр класса AppDelegate чтобы добраться до хранилища
     
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
@@ -102,7 +104,14 @@ class TaskViewController: UIViewController {
         task.name = taskTextField.text
         // Необходимо сохранить внесенные изменения
         
-        
+        if context.hasChanges {
+            do{
+                try context.save()
+            } catch let error {
+                print(error.localizedDescription)
+            }
+        }
+        delegate?.reloadData()
         dismiss(animated: true)
     }
     
