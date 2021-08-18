@@ -12,7 +12,7 @@
 		744B8B2326CAD1F600EE77E7 /* CoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 744B8B2126CAD1F600EE77E7 /* CoreDataDemo.xcdatamodeld */; };
 		744B8B2526CAD1FC00EE77E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744B8B2426CAD1FC00EE77E7 /* Assets.xcassets */; };
 		744B8B2826CAD1FC00EE77E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744B8B2626CAD1FC00EE77E7 /* LaunchScreen.storyboard */; };
-		744B8B3026CADB0000EE77E7 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B8B2F26CADB0000EE77E7 /* TaskViewController.swift */; };
+		744B8B3226CD656D00EE77E7 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B8B3126CD656D00EE77E7 /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		744B8B2426CAD1FC00EE77E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		744B8B2726CAD1FC00EE77E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		744B8B2926CAD1FC00EE77E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		744B8B2F26CADB0000EE77E7 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		744B8B3126CD656D00EE77E7 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				744B8B1826CAD1F600EE77E7 /* AppDelegate.swift */,
 				744B8B1C26CAD1F600EE77E7 /* TaskListViewController.swift */,
-				744B8B2F26CADB0000EE77E7 /* TaskViewController.swift */,
+				744B8B3126CD656D00EE77E7 /* StorageManager.swift */,
 				744B8B2426CAD1FC00EE77E7 /* Assets.xcassets */,
 				744B8B2626CAD1FC00EE77E7 /* LaunchScreen.storyboard */,
 				744B8B2926CAD1FC00EE77E7 /* Info.plist */,
@@ -137,9 +137,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				744B8B1D26CAD1F600EE77E7 /* TaskListViewController.swift in Sources */,
-				744B8B3026CADB0000EE77E7 /* TaskViewController.swift in Sources */,
 				744B8B2326CAD1F600EE77E7 /* CoreDataDemo.xcdatamodeld in Sources */,
 				744B8B1926CAD1F600EE77E7 /* AppDelegate.swift in Sources */,
+				744B8B3226CD656D00EE77E7 /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
